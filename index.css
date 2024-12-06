@@ -1,0 +1,499 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.logo{
+    height: 100px;
+}
+.logo-section{
+    display: flex;
+}
+
+.book-btn{
+    background-color: #004AAD;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 25px;
+    border: 0px;
+    height: 30px;
+    width: 200px;
+    font-weight: bold;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.com-name{
+    font-family: sans-serif;
+}
+
+.nav-item{
+  text-decoration: none;
+  margin-right:16px ;
+    color: #000001;
+font-size: 22px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.container1 {
+    position: relative;
+    width: 100vw;
+    height: 600px;
+    overflow: hidden; 
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/image1.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2; 
+    z-index: 1;
+  }
+  
+  .desc {
+    position: relative; 
+    z-index: 2; 
+    font-size: 30px;
+    font-family: 'Sans-serif';
+    color: black; 
+    width: 600px;
+    font-weight: 0px;
+    margin-left: 10%;
+    margin-top: 5%;
+
+  }
+  .helight-text{
+    font-style: italic;
+    font-weight: 700px;
+  }
+  .helight-text2{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: 700px;
+  }
+
+  .book-btn2{
+    background-color: #004AAD;
+    z-index: 2;
+    position: relative;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 25px;
+    border: 0px;
+    height: 50px;
+    width: 360px;
+    font-weight: bold;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    font-size: large;
+  
+  }
+
+  .btn-card{
+    margin-left: 10%;
+  }
+
+  .copy-card{
+    margin-left: 35%;
+    margin-top: 9%;
+  }
+
+  .copy-card2{
+    margin-left: 35%;
+    
+  }
+
+  .section-2{
+    height: 900px;
+  }
+
+  .text1{
+    font-size: 43px;
+    width: 200px;
+    font-family: sans-serif;
+
+
+  }
+
+  .line {
+    width: 3px; 
+    height: 90px; 
+    background-color: rgb(218, 82, 37);
+    margin-right: 10px; 
+  }
+
+  .card1{
+    display: flex;
+  align-items: center;
+  margin-left: 5%;
+  }
+
+  .btncard{
+    width: 250px;
+    margin-left: 5%;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding: 7PX;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.07) 0px 17px 17px -5px;
+  }
+
+  .section-2{
+    display: flex;
+    
+    justify-content: space-between;
+  }
+
+  .right-container{
+    width: 45%;
+    margin-top: 6%;
+    margin-right: 3%;
+
+
+  }
+
+  .desc2{
+    font-family: sans-serif;
+    font-size: 24px;
+  }
+
+  .desc-m{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+  .section2{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+.sub-desc2{
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+
+.section-3{
+  background-image: url('/Spacio\ TechTonics\ Consultancy\ V21.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.heading3{
+  font-family: sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  font-style: italic;
+  width: 350px;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.copy-card3{
+  color: #ffffff;
+}
+
+.section4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+  height: 600px;
+  overflow: hidden; 
+}
+
+
+.background2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://spaciotechtonics.my.canva.site/spacio-techtonics-consultancy-v2/media/89cd48c2bf450e5097c86e519c051824.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.05; 
+  z-index: 1;
+}
+
+
+.heading4{
+  font-size: 38px;
+  font-family: sans-serif;
+}
+
+.desc4{
+  font-family: sans-serif;
+  margin-left: 5%;
+  width: 60%;
+  font-size: 22px;
+}
+
+li{
+  margin-left: 5%;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+.values-card{
+  display: flex;
+  z-index: 2;
+  position: relative;
+  flex-direction: row;
+  margin-left: 5%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 59%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  justify-content: space-between;
+}
+
+.value1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.v{
+  font-size: 12px;
+}
+
+.v1{
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.map-img{
+  height: 80vh;
+ 
+}
+
+.rightcard{
+  margin-right: 4%;
+}
+
+.section5{
+  height: 100vh;
+}
+
+.img1{
+  height: 500px;
+  width: 100%;
+  border-radius: 15px;
+  margin: 5%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.img2{
+  width: 100%;
+  height: 500px;
+  border-radius: 15px;
+} 
+
+.section-5{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left{
+  width: 60%;
+  margin-right: 2%;
+ 
+}
+.right{
+  width: 30%;
+  margin-right: 2%;
+}
+
+.hd{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.view{
+  height: 27px;
+  font-family: sans-serif;
+ 
+}
+
+.cd2{
+  margin-right: 5%;
+}
+
+.city{
+  margin-top: 0%;
+  margin-left: 5%;
+  font-family: sans-serif;
+}
+
+.section6{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.b1{
+  box-shadow: rgba(0, 0, 0, 0.15)  2.4px 2.4px 3.2px;
+  border-radius: 15px;
+  height: 350px;
+  width: 250px;
+}
+
+.blocks{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.inbox{
+  border: 5px solid #000001;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.in{
+  font-weight:bold;
+  font-size: large;
+}
+
+.t{
+  font-family: sans-serif;
+  font-size: 17px;
+  width: 250px;
+}
+
+.ft{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #000001;
+  color: #ffffff;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+.v1{
+  color: #59595c;
+  font-size: small;
+}
+
+.copy-rightl{
+  font-size: 10px;
+}
+
+.call{
+  font-weight: bold;
+}
+
+.section-7{
+  background-image: url(https://spaciotechtonics.my.canva.site/spacio-techtonics-consultancy-v2/media/821773734067879fddea9c114e4258d1.jpg);
+  height: 100vh;
+  background-size: cover;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading7{
+  font-family: sans-serif;
+  font-size: 48px;
+}
+.click{
+  color: #ffffff;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.lf{
+  margin-left: 5%;
+}
+
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-item2{
+  text-decoration: none;
+  margin-right:16px ;
+    color: #ffffff;
+font-size: 22px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.rs{
+  margin-right: 7%;
+}
+
+.heading8{
+  font-size: 38px;
+}
+
+input{
+  color: #ffffff;
+
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 12px;
+  padding: 7px;
+  width: 200px;
+  height: 30px;
+}
+
+.sign{
+  background-color: #ffffff;
+  padding: 7px;
+  width: 150px;
+  border-radius: 20px;
+  border: 0px;
+  color: #000001;
+  height: 40px;
+  font-weight: 700;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+
+.copy-right3{
+  margin-top: 20%;
+  
+}
+
+.heading{
+  font-size: 42px;
+  font-family: sans-serif;
+  color: #0f0f0f;
+}
